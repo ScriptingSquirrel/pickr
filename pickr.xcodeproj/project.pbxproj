@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C3FC1981E0AB8DB00510A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3FC1971E0AB8DB00510A44 /* AppDelegate.swift */; };
+		8C3FC19A1E0AB8DB00510A44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3FC1991E0AB8DB00510A44 /* ViewController.swift */; };
+		8C3FC19D1E0AB8DB00510A44 /* pickr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C3FC19B1E0AB8DB00510A44 /* pickr.xcdatamodeld */; };
+		8C3FC19F1E0AB8DB00510A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C3FC19E1E0AB8DB00510A44 /* Assets.xcassets */; };
+		8C3FC1A21E0AB8DB00510A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3FC1A01E0AB8DB00510A44 /* Main.storyboard */; };
+		8C3FC1AD1E0AB8DB00510A44 /* pickrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3FC1AC1E0AB8DB00510A44 /* pickrTests.swift */; };
+		8C3FC1B81E0AB8DB00510A44 /* pickrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3FC1B71E0AB8DB00510A44 /* pickrUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C3FC1A91E0AB8DB00510A44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C3FC18C1E0AB8DA00510A44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C3FC1931E0AB8DA00510A44;
+			remoteInfo = pickr;
+		};
+		8C3FC1B41E0AB8DB00510A44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C3FC18C1E0AB8DA00510A44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C3FC1931E0AB8DA00510A44;
+			remoteInfo = pickr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C3FC1941E0AB8DB00510A44 /* pickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3FC1971E0AB8DB00510A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C3FC1991E0AB8DB00510A44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C3FC19C1E0AB8DB00510A44 /* pickr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pickr.xcdatamodel; sourceTree = "<group>"; };
+		8C3FC19E1E0AB8DB00510A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C3FC1A11E0AB8DB00510A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C3FC1A31E0AB8DB00510A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C3FC1A81E0AB8DB00510A44 /* pickrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pickrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3FC1AC1E0AB8DB00510A44 /* pickrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickrTests.swift; sourceTree = "<group>"; };
+		8C3FC1AE1E0AB8DB00510A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C3FC1B31E0AB8DB00510A44 /* pickrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pickrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3FC1B71E0AB8DB00510A44 /* pickrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickrUITests.swift; sourceTree = "<group>"; };
+		8C3FC1B91E0AB8DB00510A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C3FC1911E0AB8DA00510A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3FC1A51E0AB8DB00510A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3FC1B01E0AB8DB00510A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C3FC18B1E0AB8DA00510A44 = {
+			isa = PBXGroup;
+			children = (
+				8C3FC1961E0AB8DB00510A44 /* pickr */,
+				8C3FC1AB1E0AB8DB00510A44 /* pickrTests */,
+				8C3FC1B61E0AB8DB00510A44 /* pickrUITests */,
+				8C3FC1951E0AB8DB00510A44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C3FC1951E0AB8DB00510A44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C3FC1941E0AB8DB00510A44 /* pickr.app */,
+				8C3FC1A81E0AB8DB00510A44 /* pickrTests.xctest */,
+				8C3FC1B31E0AB8DB00510A44 /* pickrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C3FC1961E0AB8DB00510A44 /* pickr */ = {
+			isa = PBXGroup;
+			children = (
+				8C3FC1971E0AB8DB00510A44 /* AppDelegate.swift */,
+				8C3FC1991E0AB8DB00510A44 /* ViewController.swift */,
+				8C3FC19E1E0AB8DB00510A44 /* Assets.xcassets */,
+				8C3FC1A01E0AB8DB00510A44 /* Main.storyboard */,
+				8C3FC1A31E0AB8DB00510A44 /* Info.plist */,
+				8C3FC19B1E0AB8DB00510A44 /* pickr.xcdatamodeld */,
+			);
+			path = pickr;
+			sourceTree = "<group>";
+		};
+		8C3FC1AB1E0AB8DB00510A44 /* pickrTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C3FC1AC1E0AB8DB00510A44 /* pickrTests.swift */,
+				8C3FC1AE1E0AB8DB00510A44 /* Info.plist */,
+			);
+			path = pickrTests;
+			sourceTree = "<group>";
+		};
+		8C3FC1B61E0AB8DB00510A44 /* pickrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C3FC1B71E0AB8DB00510A44 /* pickrUITests.swift */,
+				8C3FC1B91E0AB8DB00510A44 /* Info.plist */,
+			);
+			path = pickrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C3FC1931E0AB8DA00510A44 /* pickr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3FC1BC1E0AB8DB00510A44 /* Build configuration list for PBXNativeTarget "pickr" */;
+			buildPhases = (
+				8C3FC1901E0AB8DA00510A44 /* Sources */,
+				8C3FC1911E0AB8DA00510A44 /* Frameworks */,
+				8C3FC1921E0AB8DA00510A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pickr;
+			productName = pickr;
+			productReference = 8C3FC1941E0AB8DB00510A44 /* pickr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C3FC1A71E0AB8DB00510A44 /* pickrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3FC1BF1E0AB8DB00510A44 /* Build configuration list for PBXNativeTarget "pickrTests" */;
+			buildPhases = (
+				8C3FC1A41E0AB8DB00510A44 /* Sources */,
+				8C3FC1A51E0AB8DB00510A44 /* Frameworks */,
+				8C3FC1A61E0AB8DB00510A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C3FC1AA1E0AB8DB00510A44 /* PBXTargetDependency */,
+			);
+			name = pickrTests;
+			productName = pickrTests;
+			productReference = 8C3FC1A81E0AB8DB00510A44 /* pickrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C3FC1B21E0AB8DB00510A44 /* pickrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3FC1C21E0AB8DB00510A44 /* Build configuration list for PBXNativeTarget "pickrUITests" */;
+			buildPhases = (
+				8C3FC1AF1E0AB8DB00510A44 /* Sources */,
+				8C3FC1B01E0AB8DB00510A44 /* Frameworks */,
+				8C3FC1B11E0AB8DB00510A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C3FC1B51E0AB8DB00510A44 /* PBXTargetDependency */,
+			);
+			name = pickrUITests;
+			productName = pickrUITests;
+			productReference = 8C3FC1B31E0AB8DB00510A44 /* pickrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C3FC18C1E0AB8DA00510A44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					8C3FC1931E0AB8DA00510A44 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					8C3FC1A71E0AB8DB00510A44 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C3FC1931E0AB8DA00510A44;
+					};
+					8C3FC1B21E0AB8DB00510A44 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C3FC1931E0AB8DA00510A44;
+					};
+				};
+			};
+			buildConfigurationList = 8C3FC18F1E0AB8DA00510A44 /* Build configuration list for PBXProject "pickr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C3FC18B1E0AB8DA00510A44;
+			productRefGroup = 8C3FC1951E0AB8DB00510A44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C3FC1931E0AB8DA00510A44 /* pickr */,
+				8C3FC1A71E0AB8DB00510A44 /* pickrTests */,
+				8C3FC1B21E0AB8DB00510A44 /* pickrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C3FC1921E0AB8DA00510A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3FC19F1E0AB8DB00510A44 /* Assets.xcassets in Resources */,
+				8C3FC1A21E0AB8DB00510A44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3FC1A61E0AB8DB00510A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3FC1B11E0AB8DB00510A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C3FC1901E0AB8DA00510A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3FC19D1E0AB8DB00510A44 /* pickr.xcdatamodeld in Sources */,
+				8C3FC19A1E0AB8DB00510A44 /* ViewController.swift in Sources */,
+				8C3FC1981E0AB8DB00510A44 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3FC1A41E0AB8DB00510A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3FC1AD1E0AB8DB00510A44 /* pickrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3FC1AF1E0AB8DB00510A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3FC1B81E0AB8DB00510A44 /* pickrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C3FC1AA1E0AB8DB00510A44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C3FC1931E0AB8DA00510A44 /* pickr */;
+			targetProxy = 8C3FC1A91E0AB8DB00510A44 /* PBXContainerItemProxy */;
+		};
+		8C3FC1B51E0AB8DB00510A44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C3FC1931E0AB8DA00510A44 /* pickr */;
+			targetProxy = 8C3FC1B41E0AB8DB00510A44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C3FC1A01E0AB8DB00510A44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C3FC1A11E0AB8DB00510A44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C3FC1BA1E0AB8DB00510A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C3FC1BB1E0AB8DB00510A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		8C3FC1BD1E0AB8DB00510A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pickr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elritsch.pickr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8C3FC1BE1E0AB8DB00510A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pickr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elritsch.pickr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8C3FC1C01E0AB8DB00510A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pickrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elritsch.pickrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pickr.app/Contents/MacOS/pickr";
+			};
+			name = Debug;
+		};
+		8C3FC1C11E0AB8DB00510A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pickrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elritsch.pickrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pickr.app/Contents/MacOS/pickr";
+			};
+			name = Release;
+		};
+		8C3FC1C31E0AB8DB00510A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pickrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elritsch.pickrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = pickr;
+			};
+			name = Debug;
+		};
+		8C3FC1C41E0AB8DB00510A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pickrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elritsch.pickrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = pickr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C3FC18F1E0AB8DA00510A44 /* Build configuration list for PBXProject "pickr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3FC1BA1E0AB8DB00510A44 /* Debug */,
+				8C3FC1BB1E0AB8DB00510A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C3FC1BC1E0AB8DB00510A44 /* Build configuration list for PBXNativeTarget "pickr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3FC1BD1E0AB8DB00510A44 /* Debug */,
+				8C3FC1BE1E0AB8DB00510A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C3FC1BF1E0AB8DB00510A44 /* Build configuration list for PBXNativeTarget "pickrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3FC1C01E0AB8DB00510A44 /* Debug */,
+				8C3FC1C11E0AB8DB00510A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C3FC1C21E0AB8DB00510A44 /* Build configuration list for PBXNativeTarget "pickrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3FC1C31E0AB8DB00510A44 /* Debug */,
+				8C3FC1C41E0AB8DB00510A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C3FC19B1E0AB8DB00510A44 /* pickr.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C3FC19C1E0AB8DB00510A44 /* pickr.xcdatamodel */,
+			);
+			currentVersion = 8C3FC19C1E0AB8DB00510A44 /* pickr.xcdatamodel */;
+			path = pickr.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C3FC18C1E0AB8DA00510A44 /* Project object */;
+}
