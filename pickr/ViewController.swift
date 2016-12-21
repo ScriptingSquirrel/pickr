@@ -10,10 +10,14 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var urlLabel: NSTextField!
+
+    let appDelegate = NSApplication.shared().delegate as! AppDelegate
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        urlLabel.stringValue = appDelegate.url
+        appDelegate.urlLabel = urlLabel
     }
 
     override var representedObject: Any? {
@@ -22,6 +26,25 @@ class ViewController: NSViewController {
         }
     }
 
+    @IBAction func launchTor(button: NSButton) {
+        appDelegate.openBrowserAndTerminateApp("TorBrowser")
 
+    }
+
+    @IBAction func launchFirefox(button: NSButton) {
+        appDelegate.openBrowserAndTerminateApp("Firefox")
+    }
+
+    @IBAction func launchChrome(button: NSButton) {
+        appDelegate.openBrowserAndTerminateApp("Google Chrome")
+    }
+
+    @IBAction func launchSafari(button: NSButton) {
+        appDelegate.openBrowserAndTerminateApp("Safari")
+    }
+
+    @IBAction func launchDefault(button: NSButton) {
+        appDelegate.openDefaultBrowserAndTerminateApp()
+    }
 }
 
