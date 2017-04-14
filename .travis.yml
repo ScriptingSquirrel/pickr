@@ -3,3 +3,4 @@
 language: objective-c
 xcode_project: pickr.xcodeproj
 xcode_scheme: pickrTests
+osx_image: xcode8.3  # Xcode 8.3, OS X 10.12
