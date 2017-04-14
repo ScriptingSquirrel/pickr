@@ -4,3 +4,9 @@ language: objective-c
 xcode_project: pickr.xcodeproj
 xcode_scheme: pickrTests
 osx_image: xcode8.3  # Xcode 8.3, OS X 10.12
+
+# need to define my own build script since xctool doesn't support Xcode 8.3 quite yet
+# (crashes with "ERROR: Unexpected action: build"), see:
+#  https://stackoverflow.com/questions/41786984/error-unexpected-action-build-when-building-a-project-with-swift-3-and-cocoa
+script:
+  - xcodebuild -project pickr.xcodeproj -scheme pickrTests build test
