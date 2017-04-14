@@ -22,6 +22,16 @@
                ReferencedContainer = "container:pickr.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8C3FC1B21E0AB8DB00510A44"
+               BuildableName = "pickrUITests.xctest"
+               BlueprintName = "pickrUITests"
+               ReferencedContainer = "container:pickr.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
